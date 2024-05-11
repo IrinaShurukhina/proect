@@ -247,13 +247,15 @@ background-color: #0DBC91;
    
 }
 
-    .button_second{
+   .button{
+    display: flex; 
+    z-index: 70;
+
+   } 
+    .button_record_second{
      display: flex; 
     
    } 
-   .button_record{
-    display: none;
-}
 
 
 }
