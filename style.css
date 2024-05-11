@@ -1,0 +1,47 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+*{
+    box-sizing: border-box;
+    margin: 0;
+    transition: 1s;
+    width: 1920px;
+
+    font-family: 'PT Sans Caption';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+@media (max-width: 400px){
+    *{
+        width: 375px;
+    }
+    .container{
+    width: 341px;
+   
+    }}
+
+ /* форма */
+ .forma{
+    align-self: center;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+ }
+ .form_name, .form_suname{
+    width: 300px;
+ }
+ .form_submit{
+    font-size:18px;
+    width: 300px;
+    padding: 10px 10px;
+    background-color:  #45927FE5;
+    border-radius: 25px;
+    border: none;
+    margin-top: 10px;
+ }

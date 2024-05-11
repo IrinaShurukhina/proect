@@ -1,0 +1,224 @@
+.main{
+     background: rgba(248, 251, 250, 1);
+     padding-bottom: 205px;
+}
+
+.recrangle{
+width: 950px;
+height: 532px;
+float: right;
+}
+
+.heading_1{
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+.main_naw{
+    padding-top: 10%;
+    width: 33%; 
+    line-height: 50px;
+   
+
+}
+.main_info{
+    width: 100%;
+    font-size: 16px;
+}
+
+.main_2{
+    width: 1140px;
+    background: rgba(226, 240, 239, 1);
+    background-image: url(../img/doctor-working-table\ 1\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main_Check_UP{
+    width: 33%; 
+    margin-top: 10%;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+.Check{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.men{
+    font-size: 22px;
+    font-weight: 700; 
+}
+.transfers{
+   padding-top: 20px;
+    padding-left: 19px;
+}
+.transfers_health{
+    font-size: 16px;
+    line-height: 30px;
+    padding-right: 30px;
+}
+.transfers_health::marker{
+    color: rgba(31, 161, 129, 1);
+    width: 7px;
+    height: 7px;
+}
+
+.price{
+    padding-top: 30px;
+}
+.price_now{
+    font-size: 20px;
+}
+.price_was{
+    padding-left: 30px;
+    color:  rgba(134, 134, 134, 1);
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.button_2{
+    padding-top: 30px;
+}
+.button_record{
+    flex-shrink: 0;
+}
+.button_detail{
+width: 196px;
+height: 43px;
+border-radius: 50px;
+color:#0DBC91;
+background: #0dbc9000;
+border:1px solid #0DBC91;
+margin-left: 15px;
+
+&:hover{
+background: #0DBC91;
+color: #FFFFFF;
+}
+}
+.leaf{
+    margin-left: 45%;
+    margin-top: 30px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    
+}
+.leaf_arrow{
+width: 34px;
+height: 34px;
+background-image: url(../icon/left-arrow\ 6.png);
+}
+.leaf_colour{
+    width: 34px;
+    height: 34px;
+    background-image: url(../icon/left-arrow\ 5.png);
+}
+.leaf_numbers{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    width: 2%;
+}
+.leaf_gray{
+    font-size: 18px;
+    color: rgba(134, 134, 134, 1);
+}
+.leaf_colour:hover{
+    background-image: url(../icon/left-arrow\ 5\ \(1\).png);
+    width: 34px;
+height: 34px;
+}
+.img_min{
+    display: none;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+    width: 340px;
+    height: 169px;
+    margin-bottom: -50px;
+}
+
+@media (max-width: 400px){
+    .recrangle{
+        display: none;
+       } 
+    .main{
+        background: url(../img/Rectangle\ 9\ \(1\).png);
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    .main_naw{
+        padding-top:320px;
+    }
+    .main_naw{
+        width: 100%;
+        line-height: 33.64px; 
+        }
+    .heading_1{
+        font-size: 26px;
+    }
+    .img_min{
+        display: flex;
+    }
+    .main_2{
+      
+       margin-top: 50px;
+       width: 340px;
+       height: 367px;
+        background: #E2F0EF;
+      
+    }
+    .Check{
+        font-size: 26px;
+        margin-left: -40px;
+        margin-top: -30px;
+    }
+    .men{
+        font-size: 14px;
+        margin-left: -40px;
+        margin-top: -10px;
+    }
+    .transfers{
+        margin-left: -40px;
+        margin-top: -15px;
+        font-size: 14px;
+    }
+    .transfers_health::marker{
+        width: 15px;
+        height: 15px;
+    }
+    .price{
+        margin-left: -40px;
+    }
+    .price_now{
+        font-size: 18px;
+    }
+    .price_was{
+        margin-left: -20px;
+        font-size: 14px;
+    }
+
+     .button_2{
+        margin-left: -45px;
+        
+    }
+    .button_record,.button_detail{
+       width: 137px;
+        height: 43px; 
+    } 
+    .button_record{
+     margin-right: -10px;
+        }
+    .leaf{
+        margin-left: 90px;
+        display: flex;
+    }
+    .leaf_numbers{
+        
+        width: 10%;
+    }
+   
+    
+}

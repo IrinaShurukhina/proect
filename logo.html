@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+    <title>Клиника</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="header_info">
+                    <!-- тут меню-бургер  -->
+                    <div class="burger ">
+                        <span></span>
+                    </div>
+                    <!-- конец -->
+                    <img class="logo" src="img/logo.png" alt="logo">
+
+                    <div class="address">
+                        <img class="vector" src="icon/Vector.png" alt="">
+                        <div class="adress_bloc">
+                            <span class="Rosrov">Ростов-на-Дону</span>
+                            <span class=" greu">ул. Ленина, 2Б</span>
+                       </div>
+                    </div>
+
+                    <div class="tel">
+                        <img class="whatsapp" src="icon/whatsapp 1.png" alt="">
+                        <span class="tel_telefon">+7(863) 000 00 00</span>
+                    </div>
+
+                    <div class="button">
+                        <button class="button_record">Записаться на прием</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="green_menu">
+            <div class="container">
+                <div class="menu">
+                    <a class="header_menu" href="#">О клинике </a>
+                    <a class="header_menu" href="#">Услуги</a>
+                    <a class="header_menu" href="">Специалисты</a>
+                    <a class="header_menu" href="">Цены</a>
+                    <a class="header_menu" href="">Контакты</a>
+                </div>
+                <div class="button">
+                    <button class="button_record_second">Записаться</button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main">
+            <img class="recrangle" src="img/Rectangle 9.png" alt="">
+            <div class="container">
+                <div class="main_naw">
+                    <span class="heading_1">
+                        Многопрофильная клиника для детей
+                        и взрослых
+                    </span>
+                    <p class="main_info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            <div class="container">
+                  <img class="img_min"src="img/doctor-working-table min.png" alt="">
+                <div class="main_2 ">
+                    <div class="main_Check_UP">
+                        <span class="heading_2">
+                            <p class="Check">Check-UP</p>
+                            <p class="men">для мужчин</p>
+                        </span>
+
+                        <ul class="transfers">
+                            <li class="transfers_health">Гормональный скрининг</li>
+                            <li class="transfers_health">Тестостерон  </li>
+                            <li class="transfers_health">Свободный тестостерон</li>
+                            <li class="transfers_health">Глобулин, связывающий половые гормоны</li>
+                        </ul>
+
+                        <div class="price">
+                            <span class="price_now">Всего 2800&#8381</span>
+                            <span class="price_was">3500&#8381</span>
+                        </div>
+
+                        <div class="button_2">
+                            <button class="button_record ">Записаться</button>
+                            <button class="button_detail">Подробнее</button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="leaf">
+                    <span class="leaf_arrow"></span> 
+                    <span class="leaf_numbers">1 <span class="leaf_gray">/4</span></span>
+                    <span class="leaf_colour" ></span> 
+                </div>
+                
+            </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer_info">
+                    <div class="mobal">
+                    <img class="logo" src="img/logo2.png" alt="">
+
+                    <div class="footer_menu">
+                        <a class="header_menu" href="#">О клинике </a>
+                        <a class="header_menu" href="#">Услуги</a>
+                        <a class="header_menu" href="">Специалисты</a>
+                        <a class="header_menu" href="">Цены</a>
+                        <a class="header_menu" href="">Контакты</a>
+                    </div>
+                    </div>
+
+                    <div class="icon">
+                        <img class="icon_img" src="icon/instagram 4 1.png" alt="">
+                        <img class="icon_img" src="icon/whatsapp 1.png" alt="">
+                        <img class="icon_img" src="icon/telegram 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- форма -->
+
+     <div class="container">
+    <form action="php/form.php"class="forma" method="post">
+        <p>Введите имя</p>
+        <input class="form_name" type="text" name="name" value="">
+        <p>Введите фамилию</p>
+        <input class="form_suname"  type="text" name="surname" value="">
+        <input class="form_submit" type="submit" name="submit" value="отрпавить">
+       
+    </form>
+   </div> 
+   
+    <!-- js -->
+    <script>
+            document.querySelector('.burger').addEventListener('click',function(){
+            this.classList.toggle('active');
+            document.querySelector('.green_menu').classList.toggle('open')
+            document.querySelector('.button').classList.toggle('open')
+              })
+    </script>
+</body>
+</html>    
