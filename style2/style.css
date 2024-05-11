@@ -28,7 +28,7 @@
     align-self: center;
  }
  form{
-    display: flex;
+    display: none;
     flex-direction: column;
  }
  .form_name, .form_suname{
