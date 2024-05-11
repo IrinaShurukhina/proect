@@ -256,6 +256,9 @@ background-color: #0DBC91;
      display: flex; 
     
    } 
+.disappear{
+    display: none;
+   }
 
 }
 .main{
