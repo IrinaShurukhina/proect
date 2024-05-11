@@ -247,7 +247,7 @@ background-color: #0DBC91;
    
 }
 
-   .button{
+  .button{
     display: flex; 
     z-index: 70;
 
@@ -256,7 +256,6 @@ background-color: #0DBC91;
      display: flex; 
     
    } 
-
 
 }
 .main{
